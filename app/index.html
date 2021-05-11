@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+    <title>GulpSite</title>
+</head>
+<body>
+    @@include('_header.html')
+
+    <div class="wraper">
+        <div> 
+           @@include('_content.html', {
+            "name": "about us",
+            "text1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.",
+            "text2": "Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.",
+        })
+       
+        @@include('_restaurantSpecification.html',{
+            "photo1": true,
+            "textTwos": true,
+            "photoOne":true,
+            "title":"OUR TEAM",
+            "src": "img/specificationFoto.png",
+            "titleText":"MASTER CHEF",
+            "text1":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.",
+            "text2":"Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.",
+        })
+        <div class="container_content">
+            <div>
+                <h1 class="container_title_content">
+                    book a table 
+                </h1>
+                <div>
+                    <div class="container_input">
+                        <input type="text" name="Name" placeholder="Name" class="content_input">
+                        <input type="text" type="number" placeholder="Phone" class="content_input">
+                        <input type="text"  placeholder="Date (mm/dd)" class="content_input">
+                        <input type="text" type="email" placeholder="Email" class="content_input">
+                        <input type="text" name="Name" placeholder="People" class="content_input">
+                        <input type="text" name="Name" placeholder="Time" class="content_input">
+                    </div>
+                <button class="button_input">BOOK NOW</button>
+                </div>
+            </div>
+            <div>
+                @@include('_imgContent.html',{
+                    "src": "img/foto4.png",
+                    "squareRight": true,
+                })
+                </div>
+              </div>
+        
+             <p style="text-align: center; padding-top: 25px; padding-bottom: 50px"> 
+             Mon - Fri: 8PM - 10PM, Sat - Sun: 8PM - 3AM, Phone: +40 729 131 637/+40 726 458 782
+            </p>
+            
+        </div>
+        <div>
+            @@include('_restaurantSpecification.html',{
+                "photo1": true,
+                "textTwos": true,
+                "photoTwo": true,
+                "title":"specialties",
+                "src": "img/Foto3.png",
+                "titleText":"chocolate pancakes",
+                "text1":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.",
+                "text2":"Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.",
+            })
+        </div>
+        
+      <div>
+        @@include('_menu.html')
+     
+    
+        @@include('_restaurantSpecification.html',{
+            "photo2": true,
+            "photoOne": true,
+            "photoTwo": true,
+            "title":"specialties",
+            "src": "img/Foto3.png",
+           
+        })
+     
+      
+        <div style="margin: 0 auto;"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20028.753908175193!2d1.2859817301069034!3d51.134392098081626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47debad97816050f%3A0xf41f0961c9f0f30f!2sThe%20Priory%20Group!5e0!3m2!1sru!2sua!4v1620745525776!5m2!1sru!2sua" width="1440" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
+      
+    </div>
+
+    @@include('_footer.html')
+   <script src="js/script.min.js"></script>
+</body>
+</html>

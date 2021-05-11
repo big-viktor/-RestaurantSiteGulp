@@ -1,0 +1,42 @@
+.content_abouts{
+    display: flex;
+}
+
+.img_about_foto2{
+    width: 475px;
+    height: 475px;
+}
+.content_about_img{
+    display: flex;
+    justify-content: flex-end;
+}
+.square{
+    z-index: 4;
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    margin-top: 100px;
+    margin-left: 340px;
+    border: 20px solid #E8C300;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 0px 100px rgba(0, 0, 0, 0.5));
+    border-radius: 5px;
+}
+.square_left{
+    z-index: 4;
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    margin-top: 100px;
+    margin-left: 50px;
+    border: 20px solid #E8C300;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 0px 100px rgba(0, 0, 0, 0.5));
+    border-radius: 5px;
+}
+.content_about_img_left{
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 160px;
+    padding-right: 70px;
+}

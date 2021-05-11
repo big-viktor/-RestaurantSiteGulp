@@ -1,0 +1,22 @@
+body {
+  background: red; }
+  body div {
+    background: blue;
+    padding: 10px; }
+
+a {
+  color: chartreuse;
+  font-size: 30px;
+  transition: all 1s ease-in-out; }
+
+ul li {
+  display: inline-block; }
+
+p {
+  color: red;
+  font-size: 100px; }
+
+p:hover {
+  color: black;
+  font-size: 100px;
+  transition: all 1s ease-in-out; }

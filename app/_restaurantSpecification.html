@@ -1,0 +1,48 @@
+<div class="content_specification_restoran" style="background:url(@@src); background-size:100% ;">
+  <div>
+    <h1 class="specification_title">@@ title</h1>
+  </div> 
+  <div class="content_specification">
+    @@if(context.photo1){
+    <div>
+        @@if(context.photoOne){
+        @@include('_imgContent.html',{
+            "src": "img/shef.png",
+            "squareLeft": true,
+        })
+          }
+        @@if(context.photoTwo){
+        @@include('_imgContent.html',{
+            "src": "img/foto5.png",
+            "squareLeft": true,
+          })
+        }
+    }
+    </div>
+    @@if(context.photo2){
+    <div class="content_foto">
+        @@if(context.photoOne){
+
+        @@include('_imgContent.html',{
+            "src": "img/shef.png",
+            "squareLeft": true,
+        })
+          }
+        @@if(context.photoTwo){
+        
+        @@include('_imgContent.html',{
+            "src": "img/foto5.png",
+            "squareRight": true,
+          })
+        }
+    </div>
+}
+    @@if(context.textTwos){
+    <div class="content_specification_text">
+        <h1 class="specification_title_text">@@titleText</h1>
+        <p class="specification_text1"> @@ text1 </p>
+        <p class="specification_text2"> @@ text2 </p>
+    </div>
+}
+</div>
+</div>

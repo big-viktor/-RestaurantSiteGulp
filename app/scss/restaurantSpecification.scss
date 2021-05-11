@@ -1,0 +1,53 @@
+.content_specification_restoran{
+  padding: 50px 80px 100px 50px;
+  
+}
+.content_foto{
+    display: flex;
+}
+.content_specification{
+    display: flex;
+    justify-content: space-between;
+}
+.specification_title{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-bottom: 50px;
+}
+.content_specification_text{
+    padding-top: 80px;
+}
+.specification_title_text{
+    text-transform: uppercase;
+    font-family: Banny;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.specification_text1{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.9);
+}
+.specification_text2{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.9);
+    
+}

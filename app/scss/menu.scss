@@ -1,0 +1,97 @@
+.menu_conteiner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menu_text1{
+    font-family: Banny;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+}
+.menu_text2{
+    width: 500px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+}
+.menu_content_button{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.button_menu{
+    width: 120px;
+    height: 50px;
+    border: none;
+    border-right:  1px solid rgba(51, 51, 51, 0.2);
+    background: none;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: #333333;
+
+}
+
+.menu_text3{
+    width: 363px;
+    font-family: Banny;
+    font-size: 18px;
+    line-height: 18px;
+    color: #333333;
+    margin: 0px;
+    padding-right: 80px;
+}
+.menu_text4{
+    font-family: Banny;
+    font-size: 12px;
+    color: #333333;
+    margin: 0px;
+    padding-bottom: 30px;
+}
+.price_menu{
+    display: flex;
+    flex-direction: row;
+
+}
+.price-list_soupe{
+    display: flex;
+}
+.price-list_pizza{
+    display: flex;
+
+}
+.price-list_pasta{
+    display: flex;
+
+}
+.price-list_desert{
+    display: flex;
+
+}
+.price-list_wine{
+    display: flex;
+
+}
+.price-list_beer{
+    display: flex;
+
+}
+.price-list_drinks{
+    display: flex;
+  
+}
+.delete_class{
+    display: none;
+
+}
